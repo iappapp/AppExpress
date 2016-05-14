@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    <!-- 查询数据库中信息的页面 -->
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:background="#555555" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50sp" />
+
+    <TextView
+        android:id="@+id/queryExpress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="查询快递信息"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+    
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50sp" />
+       
+    <EditText
+        android:id="@+id/dataInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入快递单号"
+        />
+    
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20sp" />
+    <Button
+        android:id="@+id/queryExpressData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/searchText"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+    
+
+</LinearLayout>

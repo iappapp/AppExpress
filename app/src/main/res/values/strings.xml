@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ExpressApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="appTitle">掌上快递查询</string>
+    <string name="chooseExpCompany">快递公司</string>
+    <string name="chooseIntr">请选择快递公司</string>
+    <string name="listName">快递单号</string>
+    <string name="inputList">请输入快递单号</string>
+    <string name="searchText">查询</string>
+    <string name="history">历史查询</string>
+    <string name="gradutionNet">大学生网点</string>
+    <string name="back">返回</string>
+    <string name="expInfo">圆通：7123456754</string>
+    <string name="scanDescript">单号扫描</string>
+    <string name="search_result">查询结果</string>
+    <string name="my_express">我的快递</string>
+    
+    <string name="netstate">网络状态</string>
+	<string name="setnetwork">当前网络不可用，是否设置网络？</string>
+	<string name="ok">设置</string>
+	<string name="cancel">取消</string>
+	<string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+</resources>
